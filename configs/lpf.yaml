@@ -1,0 +1,13 @@
+filter:
+  type: lowpass
+  order: 5
+
+frequency:
+  cutoff: 2.0e9
+  minimum: 1.0e6
+  maximum: 4.0e9
+  points: 4001
+  check: 3.4e9
+
+system:
+  impedance: 50

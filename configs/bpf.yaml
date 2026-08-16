@@ -1,0 +1,15 @@
+
+filter:
+  type: bandpass
+  order: 4
+
+frequency:
+  center: 2.0e9
+  fractional_bandwidth: 0.05
+  minimum: 1.5e9
+  maximum: 2.5e9
+  points: 4001
+  check: 2.0e9
+
+system:
+  impedance: 50

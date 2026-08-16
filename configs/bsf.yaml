@@ -1,0 +1,18 @@
+
+filter:
+  type: bandstop
+  order: 3
+
+frequency:
+  center: 3.0e9
+  fractional_bandwidth: 0.10
+  minimum: 2.0e9
+  maximum: 4.0e9
+  points: 8001
+  check: 3.1e9
+
+requirements:
+  ripple: 0.5
+
+system:
+  impedance: 75

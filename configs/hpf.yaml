@@ -1,0 +1,17 @@
+
+filter:
+  type: highpass
+  order: 5
+
+frequency:
+  cutoff: 3.0e9
+  minimum: 0.5e9
+  maximum: 6.0e9
+  points: 5501
+  check: 2.0e9
+
+requirements:
+  ripple: 3.0
+
+system:
+  impedance: 75
